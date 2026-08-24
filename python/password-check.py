@@ -40,7 +40,7 @@ def strength_check(password):
 
 def feedback(password):
     if check_common_pass(password):
-        return "The password is found in a common password lists. Please choose a different password. Score: 0/8"
+        return "The password is found in a common password lists. Please choose a different password. Score: 0/7"
 
     strength, score = strength_check(password)
 
